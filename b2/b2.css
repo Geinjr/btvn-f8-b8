@@ -10,21 +10,24 @@ body {
 }
 
 .logoicon {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 }
 
 .logo {
     width: 90%;
     display: flex;
     position: relative;
-    top: 352px;
+    top: 301px;
     left: 30px;
     gap: 20px;
 }
 
 .wrap {
     color: white;
+    position: absolute;
+    right: 50%;
+    top: 24px;
 }
 
 h1,
@@ -70,4 +73,15 @@ h1 {
 
 .line {
     border: 2px solid red;
+}
+
+.text,
+.textred {
+    font-weight: 500;
+}
+
+.big {
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 10px;
 }
