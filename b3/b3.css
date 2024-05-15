@@ -1,0 +1,100 @@
+* {
+    font-family: "Asap", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1 {
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+
+.location {
+    width: auto;
+    font-size: 13px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.location1 {
+    background-color: whitesmoke;
+    border-radius: 99px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.location1:hover {
+    background-color: #3196c3;
+    color: #ffffff;
+}
+
+.london {
+    background-color: #3196c3;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 99px;
+    padding: 5px 10px;
+}
+
+.address {
+    font-weight: 700;
+    margin: 0 auto;
+}
+
+.quantity {
+    font-style: italic;
+    font-weight: 400;
+}
+
+.address,
+.quantity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.in4 {
+    width: 380px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.detail {
+    display: flex;
+    gap: 18px;
+    margin-bottom: 18px;
+}
+
+.top {
+    position: absolute;
+    left: 6%;
+    top: 6%;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.bottom {
+    position: absolute;
+    left: 6%;
+    bottom: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.info {
+    position: relative;
+    color: #ffffff;
+}
+
+.bold {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+main {
+    margin-left: 20px;
+}
