@@ -97,3 +97,7 @@ h1 {
 main {
     margin-left: 20px;
 }
+
+ul {
+    list-style: none;
+}

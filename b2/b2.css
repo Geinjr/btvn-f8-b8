@@ -7,6 +7,11 @@
 
 body {
     background-image: url("../img/ha-noi-melody-residences-cover.jpg");
+    background-repeat: no-repeat;
+}
+
+ul {
+    list-style: none;
 }
 
 .logoicon {
